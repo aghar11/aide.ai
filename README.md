@@ -1,6 +1,6 @@
 # aide.ai — CLI-first AI OS Agent (Prototype)
 
-This repository is a **prototype** for an AI-first agent daemon + CLI branded as **aide.ai**. It demonstrates prompt-based installs, environment setup, and basic diagnostics on Linux (Ubuntu-friendly).
+This repository is a **prototype** for an AI-first OSagent daemon + CLI branded as **aide.ai**. It demonstrates prompt-based installs, environment setup, and basic diagnostics on Linux (Ubuntu-friendly).
 
 **Important:** this is a minimal prototype for experimentation. DO NOT run `--apply` commands on production machines without auditing the generated plan.
 
