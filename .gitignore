@@ -56,4 +56,4 @@ htmlcov/
 *.orig
 
 # Local settings
-.env.local
+.env
