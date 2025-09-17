@@ -1,0 +1,12 @@
+[Unit]
+Description=aide.ai Agent Daemon (user)
+After=network.target
+
+[Service]
+EnvironmentFile=%h/.aide_ai.env
+ExecStart=/usr/bin/python3 -m src.ai_agent.main
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target

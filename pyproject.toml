@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aide-ai"
+version = "0.1.0"
+description = "aide.ai — CLI-first AI OS Agent (prototype)"
+authors = [{name="Your Name", email="you@example.com"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "httpx",
+    "python-dotenv",
+    "click",
+    "psutil",
+    "pydantic",
+    "openai",
+    "python-magic",
+]
+
+[project.scripts]
+aide = "src.cli.cli:cli"

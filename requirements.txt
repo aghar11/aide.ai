@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+httpx
+python-dotenv
+click
+psutil
+pydantic
+openai
+python-magic
+pytest
+flake8

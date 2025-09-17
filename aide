@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Simple launcher for the aide.ai CLI (calls Python module)
+# Ensure your virtualenv is activated or python points to desired interpreter.
+python -m src.cli.cli "$@"
